@@ -70,3 +70,14 @@ main {
     border: none;
     letter-spacing: -1px;
 }
+
+.v-p {
+    text-align: center;
+    padding-top: 50px;
+    height: 32px;
+}
+
+.v-h1 {
+    color: white;
+    size: 30px;
+}
