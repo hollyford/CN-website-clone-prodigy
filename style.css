@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+    background-color: black;
+}
+
 
 .vk-white {
     color: white;
 }
 
- 
+nav {
+    padding: 0 68px;
+}
+
 nav > ul {
     display: flex;
     justify-content: end;
@@ -14,8 +26,29 @@ nav > ul {
     background-color: black;
     color: white;
 
+    line-height: 27px;
+
 }
 
 nav > ul > li {
     padding: 15px;
+    font-stretch: ultra-expanded;
 }
+
+.img-main {
+    width: 100%;
+}
+
+.instagram-pics {
+padding-left: 5px;
+padding-top: 40px;
+}
+
+.ig-pic {
+margin: 5px;
+width: calc(25% - 15px);
+}
+
+/* .ig-pic:hover {
+    zoom: 1%;
+} */
