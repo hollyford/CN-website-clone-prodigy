@@ -1,3 +1,21 @@
+
 .vk-white {
     color: white;
+}
+
+ 
+nav > ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+
+}
+
+nav > ul > li {
+    padding: 15px;
 }
