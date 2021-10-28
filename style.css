@@ -164,7 +164,7 @@ main {
 
 form {
     color:white;
-    border: 1px solid white;
+    border: 2px solid white;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 80px;
@@ -202,3 +202,47 @@ form > i {
     letter-spacing: -1px;
     float: right;
 }
+
+footer {
+    text-align: center;
+    background-color: #1d1e20;
+    margin-bottom: -50px;
+}
+
+.socials {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    list-style-type: none;
+    padding-top: 120px;
+}
+.socials > i > i {
+    margin: 10px;
+}
+
+
+.footer-text {
+    color: #d2d2d2;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-text a:link, a:visited {
+    text-decoration: none;
+    color: #d2d2d2;
+}
+
+.footer-text2 {
+    padding-bottom: 25px;
+}
+
+.footer-text3 {
+    padding-bottom: 150px;
+}
+
+
+
+/* hover: #fffc00 */
