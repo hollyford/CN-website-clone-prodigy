@@ -32,7 +32,6 @@ nav > ul {
 
 nav > ul > li {
     padding: 15px;
-    font-stretch: ultra-expanded;
 }
 
 .img-main {
@@ -57,11 +56,11 @@ main {
     zoom: 1%;
 } */
 
-.button-p {
+.button-p-insta {
     text-align: center;
 }
 
-.button {
+.button-insta {
     border-radius: 5px;
     font-size: 13px;
     padding: 7px 14px;
@@ -71,7 +70,7 @@ main {
     letter-spacing: -1px;
 }
 
-.v-p {
+.v-p1 {
     text-align: center;
     padding-top: 50px;
     height: 32px;
@@ -80,4 +79,34 @@ main {
 .v-h1 {
     color: white;
     size: 30px;
+}
+
+.videos-p1 {
+    text-align: center;
+    padding-top: 45px;
+    /* display: inline; */
+}
+
+.video {
+    padding: 10px;
+    display: inline;
+}
+
+.video-small {
+    vertical-align: top;
+
+}
+
+.button-p-youtube {
+    
+}
+
+.button-youtube {
+    font-size: 13px;
+    padding: 15px 35px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    letter-spacing: 0px;
+    
 }
