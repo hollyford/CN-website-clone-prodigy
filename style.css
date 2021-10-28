@@ -140,3 +140,16 @@ main {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.latest-tats {
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+.hr {
+    text-align: center;
+    width: 1%;
+    color: white;
+}
