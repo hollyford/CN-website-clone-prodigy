@@ -32,7 +32,14 @@ nav > ul {
 
 nav > ul > li {
     padding: 15px;
+    border-top: 2px solid black;
 }
+
+nav > ul > li:hover {
+    color: #fffc00;
+    border-top: 2px solid #fffc00;
+}
+
 
 .img-main {
     width: 100%;
@@ -49,12 +56,15 @@ margin: 2px;
 width: calc(25% - 15px);
 }
 
+.ig-pic:hover {
+    opacity: 0.5;
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+}
+
 main {
     border: 1px;
 }
-/* .ig-pic:hover {
-    zoom: 1%;
-} */
 
 .button-p-insta {
     text-align: center;
@@ -68,6 +78,12 @@ main {
     color: white;
     border: none;
     letter-spacing: -1px;
+}
+
+.button-insta:hover{ 
+    color: #fffc00;
+    background-color: #8a8a8a;
+    transition-duration: 0.2s;
 }
 
 .v-p1 {
@@ -84,7 +100,6 @@ main {
 .videos-p1 {
     text-align: center;
     padding-top: 45px;
-    /* display: inline; */
 }
 
 .video {
@@ -103,8 +118,11 @@ main {
     color: white;
     background-color: black;
     border: 2px solid white;
-    letter-spacing: 0px;
-    
+    letter-spacing: 0px;   
+}
+
+.button-youtube:hover {
+    border: 2px solid black;
 }
 
 .merch-store {
@@ -132,7 +150,7 @@ main {
     padding: 5px 23px;
     color: black;
     background-color: white;
-    border: 1px solid black;
+    border: 2px solid black;
     letter-spacing: 0px;
     text-align: center;
     margin-left: 45%;
@@ -141,11 +159,18 @@ main {
     margin-bottom: 15px;
 }
 
+.button-store:hover {
+    color: #fffc00;
+    background-color: black;
+    transition-duration: 0.2s;
+}
+
 .latest-tats {
     color: white;
     text-align: center;
     margin-top: 35px;
     margin-bottom: 60px;
+    font-size: 30px;
 }
 
 .hr {
@@ -160,6 +185,11 @@ main {
     padding-right: 30%;
     width: 40%;
 
+}
+
+.form-p > form > i:hover{
+    color: black;
+    transition-duration: 0.4s;
 }
 
 form {
@@ -203,6 +233,12 @@ form > i {
     float: right;
 }
 
+.button-mailing-list:hover {
+    background-color: black;
+    transition-duration: 0.4s;
+}
+
+
 footer {
     text-align: center;
     background-color: #1d1e20;
@@ -223,6 +259,9 @@ footer {
     margin: 10px;
 }
 
+.socials > i > i:hover {
+    color: #fffc00;
+}
 
 .footer-text {
     color: #d2d2d2;
@@ -235,6 +274,10 @@ footer {
     color: #d2d2d2;
 }
 
+.footer-text a:link, a:visited:hover {
+    color: #8a8a8a;
+}
+
 .footer-text2 {
     padding-bottom: 25px;
 }
@@ -243,6 +286,3 @@ footer {
     padding-bottom: 150px;
 }
 
-
-
-/* hover: #fffc00 */
