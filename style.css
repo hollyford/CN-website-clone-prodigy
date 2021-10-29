@@ -16,6 +16,8 @@ nav {
     padding: 0 68px;
 }
 
+
+
 nav > ul {
     display: flex;
     justify-content: end;
@@ -30,14 +32,48 @@ nav > ul {
 
 }
 
-nav > ul > li {
+.navbar-main > li {
     padding: 15px;
     border-top: 2px solid black;
 }
 
-nav > ul > li:hover {
+.navbar-main > li:hover {
     color: #fffc00;
     border-top: 2px solid #fffc00;
+}
+
+.navbar-ham {
+    display: none;
+}
+
+@media screen and (max-width: 910px) {
+    .navbar-main {
+        display: none;
+    }
+
+    .navbar-ham {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        background-color: black;
+        color: white;
+        border-top: none;
+    }
+
+    .li-border {
+        border-bottom: 1px solid white;
+        border-width: 100%;
+    }
+
+    .navbar-ham > li {
+        padding: 15px;
+        width: 500px;
+    }
+    
+    .navbar-ham > li:hover {
+        color: #8a8a8a;
+    }
+    
 }
 
 
